@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:minWidth="25px"
+    p1:minHeight="25px"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:id="@+id/tableLayout1"
+    p1:shrinkColumns="0">
+    <TableRow
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:id="@+id/tableRow10">
+    </TableRow>
+    <TableRow
+        p1:id="@+id/tableRow1">
+        <TextView
+            p1:text="Selecione a moeda de origem"
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_column="0"
+            p1:id="@+id/textView10" />
+    </TableRow>
+    <TableRow
+        p1:id="@+id/tableRow2">
+        <Spinner
+            p1:layout_column="0"
+            p1:id="@+id/moeda1" />
+    </TableRow>
+    <TableRow
+        p1:id="@+id/tableRow3">
+    </TableRow>
+    <TableRow
+        p1:id="@+id/tableRow4">
+        <TextView
+            p1:text="Selecione a moeda de destino"
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_column="0"
+            p1:id="@+id/textView17" />
+    </TableRow>
+    <TableRow
+        p1:id="@+id/tableRow5">
+        <Spinner
+            p1:layout_column="0"
+            p1:id="@+id/moeda2" />
+    </TableRow>
+    <TableRow
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:id="@+id/tableRow6">
+    </TableRow>
+    <TableRow
+        p1:id="@+id/tableRow7">
+        <TextView
+            p1:text="Digite o valor a ser convertido"
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_column="0"
+            p1:id="@+id/textView30" />
+    </TableRow>
+    <TableRow
+        p1:id="@+id/tableRow8">
+        <EditText
+            p1:inputType="numberDecimal"
+            p1:layout_column="0"
+            p1:id="@+id/txtQuantidade" />
+        <Button
+            p1:text="Converter"
+            p1:layout_column="1"
+            p1:id="@+id/btnConverter" />
+    </TableRow>
+    <TableRow
+        p1:minWidth="25px"
+        p1:minHeight="25px"
+        p1:id="@+id/tableRow9">
+    </TableRow>
+    <TableRow
+        p1:id="@+id/tableRow11">
+        <TextView
+            p1:text="Resultado:"
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_column="0"
+            p1:id="@+id/textView37"
+            p1:layout_width="90.0dp" />
+        <TextView
+            p1:textAppearance="?android:attr/textAppearanceMedium"
+            p1:layout_column="1"
+            p1:id="@+id/lblResultado" />
+    </TableRow>
+    <TableRow
+        p1:id="@+id/tableRow12">
+        <TextView
+            p1:text="Small Text"
+            p1:textAppearance="?android:attr/textAppearanceSmall"
+            p1:layout_column="0"
+            p1:id="@+id/hdnMoeda1"
+            p1:visibility="invisible" />
+        <TextView
+            p1:textAppearance="?android:attr/textAppearanceSmall"
+            p1:layout_column="1"
+            p1:id="@+id/hdnMoeda2"
+            p1:visibility="invisible" />
+    </TableRow>
+</TableLayout>
